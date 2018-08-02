@@ -14,9 +14,9 @@ alert(this.name + " cost "+ "$"+ this.price +  " you are requesting: " + this.qu
 function main()
 {
 var coat = new Product(100,2,"TrackJacket");
-    console.log(coat);
+    coat.printAllAttributes();
     var wig = new Product(500,1,"Blond and Black");
-    console.log(wig);
+    wig.printAllAttributes();
 }
 
 

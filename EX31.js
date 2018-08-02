@@ -14,9 +14,9 @@ class Movie{
 function main()
 {
 var movie1 = new Movie("Crash",5,2010);
-console.log(movie1.printMovie());
+movie1.printMovie();
 var movie2 = new Movie("Scarface",5,1983);
-console.log(movie2.printMovie());
+movie2.printMovie();
 }
 
 main();
